@@ -1,0 +1,64 @@
+<!-- Inline CSS -->
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #0368D6;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+  }
+    section {
+        padding: 20px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #0368D6;
+        color: white;
+    }
+    /* Box Container */
+    .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+    /* Box Styles */
+    .box {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        text-align: center;
+        padding: 20px;
+        transition: transform 0.3s ease;
+    }
+
+    .box h3 {
+        margin: 20px 0 10px;
+        font-size: 1.5rem;
+        color: #24292f;
+    }
+
+    .box p {
+        font-size: 1rem;
+        color: #666;
+    }
+
+    .box:hover {
+        transform: translateY(-10px);
+    }
+</style>
