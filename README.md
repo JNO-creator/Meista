@@ -8,6 +8,7 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
+            box-shadow: h-offset v-offset blur spread color inset;
             color: #333;
             margin: 0;
             padding: 0;
