@@ -3,45 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banner Example</title>
+    <title>Styled Link Example</title>
     <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100;
+        /* Styling the link */
+        a {
+            text-decoration: none; /* Removes the underline */
+            color: #3498db; /* Sets the link color */
+            font-size: 18px; /* Set the font size */
+            font-weight: bold; /* Makes the link text bold */
+            transition: color 0.3s ease; /* Smooth transition for color change */
         }
 
-        .banner {
-            width: 1200px;
-            height: 300px;
-            background-image: url('your-image-url.jpg'); /* Replace with your image URL */
-            background-size: cover;
-            background-position: center;
-            text-align: center;
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
+        /* Hover effect */
+        a:hover {
+            color: #e74c3c; /* Change color on hover */
+            text-decoration: underline; /* Adds an underline when hovered */
         }
 
-        .banner h1 {
-            font-size: 36px;
-            margin: 0;
+        /* Active link (when clicked) */
+        a:active {
+            color: #2c3e50; /* Change color when the link is active */
         }
 
-        .banner p {
-            font-size: 18px;
-            margin-top: 10px;
+        /* Visited link */
+        a:visited {
+            color: #8e44ad; /* Change color for visited links */
         }
     </style>
 </head>
 <body>
 
-    <div class="banner">
-        <h1>Welcome to Our Website!</h1>
-        <p>We provide amazing services just for you.</p>
-    </div>
+    <a href="https://www.example.com" target="_blank">Visit Example Website</a>
 
 </body>
 </html>
