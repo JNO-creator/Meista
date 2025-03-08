@@ -1,115 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Self-Help-You</title>
-    
-    <!-- Inline CSS -->
+    <title>Banner Example</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            box-shadow: h-offset v-offset blur spread color inset;
-            color: #333;
+        body, html {
             margin: 0;
             padding: 0;
+            height: 100;
         }
 
-        header {
-            background-color: #0368D6;
-            color: white;
-            padding: 20px;
+        .banner {
+            width: 1200px;
+            height: 300px;
+            background-image: url('your-image-url.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
             text-align: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
         }
 
-        header h1 {
+        .banner h1 {
+            font-size: 36px;
             margin: 0;
-            font-size: 2.5rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-      }
-        section {
-            padding: 20px;
         }
 
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #0368D6;
-            color: white;
-        }
-        /* Box Container */
-        .box-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 40px;
-        }
-
-        /* Box Styles */
-        .box {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            text-align: center;
-            padding: 20px;
-            transition: transform 0.3s ease;
-        }
-
-        .box h3 {
-            margin: 20px 0 10px;
-            font-size: 1.5rem;
-            color: #24292f;
-        }
-
-        .box p {
-            font-size: 1rem;
-            color: #666;
-        }
-
-        .box:hover {
-            transform: translateY(-10px);
+        .banner p {
+            font-size: 18px;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
 
-    <!-- Header -->
-    <header>
-        <h1>Self-Help-You</h1>
-        <h3> - osana pienyrityksien tulevaisuuden suunnittelua</h3>
-    </header>
+    <div class="banner">
+        <h1>Welcome to Our Website!</h1>
+        <p>We provide amazing services just for you.</p>
+    </div>
 
-    <!-- Main Content -->
-    <section>
-        <div class="box-container">
-            <!-- Meistä Box -->
-            <div class="box">
-                <h3>Meistä</h3>
-                <p>Lue lisää meistä ja referensseistämme.</p>
-            </div>
-
-            <!-- Yritys Box -->
-            <div class="box">
-                <h3>Yritys</h3>
-                <p>Tutustu yritykseemme sekä henkilökuntaamme.</p>
-            </div>
-
-            <!-- Palvelut Box -->
-            <div class="box">
-                <h3>Palvelut</h3>
-                <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi tulevaisuuden suunnittelussa.</p>
-            </div>
-
-            <!-- Koulutus Box -->
-            <div class="box">
-                <h3>Koulutus</h3>
-                <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Self-Help-You. Kaikki oikeudet pidätetään.</p>
-    </footer>
+</body>
+</html>
