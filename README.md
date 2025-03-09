@@ -55,7 +55,7 @@
         @media screen and (max-width: 768px) {
             .navbar a {
                 display: none; /* Hide the links by default */
-                width: 75%; /* Make the links take full width */
+                width: 100%; /* Make the links take full width */
                 text-align: left; /* Align links to the left */
                 padding: 14px; /* Adjust padding for the links */
             }
@@ -165,7 +165,7 @@
             color: white;
             padding: 40px;
             text-align: center;
-            height: 500px; /* Set a fixed height */
+            width: 100%; /* Set a fixed height */
             border-radius: 8px;
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
         }
