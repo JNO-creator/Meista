@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -115,7 +116,7 @@
         /* Box Container */
         .box-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(2, 1fr); /* Two equal width columns */
             gap: 10px;
             margin-top: 40px;
         }
@@ -144,6 +145,39 @@
 
         .box:hover {
             transform: translateY(-10px);
+        }
+
+        /* Smaller Boxes with Reduced Width */
+        .box-small {
+            background-color: #f7a539; /* Light background for smaller boxes */
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
+            padding: 20px;
+            height: 200px; /* Set a fixed height */
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        /* Box with Background Image */
+        .box-image {
+            background-image: url('https://via.placeholder.com/500'); /* Add your image URL here */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 40px;
+            text-align: center;
+            height: 250px; /* Set a fixed height */
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
+        }
+
+        .box-image h3 {
+            font-size: 24px;
+            color: white;
+        }
+
+        .box-image p {
+            font-size: 14px;
         }
 
         footer {
@@ -202,32 +236,30 @@
     <!-- Main Content -->
     <section>
         <div class="box-container">
-            <!-- Meistä Box -->
-            <div class="box">
+            <!-- Meistä Box (Smaller) -->
+            <div class="box-small">
                 <h3>Meistä</h3>
                 <p>Lue lisää meistä ja referensseistämme.</p>
                 <a href="/Meista" class="cta-btn">Lue lisää</a>
             </div>
 
-            <!-- Yritys Box -->
-            <div class="box">
+            <!-- Yritys Box (Smaller) -->
+            <div class="box-small">
                 <h3>Yritys</h3>
                 <p>Tutustu yritykseemme sekä henkilökuntaamme.</p>
                 <a href="/Meista" class="cta-btn">Tutustu</a>
             </div>
 
-            <!-- Palvelut Box -->
-            <div class="box">
+            <!-- Palvelut Box (With Background Image) -->
+            <div class="box-image">
                 <h3>Palvelut</h3>
                 <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi tulevaisuuden suunnittelussa.</p>
-                <a href="/Meista" class="cta-btn">Katso tästä</a>
             </div>
 
-            <!-- Koulutus Box -->
-            <div class="box">
+            <!-- Koulutus Box (With Background Image) -->
+            <div class="box-image">
                 <h3>Koulutus</h3>
                 <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
-                <a href="/Meista" class="cta-btn">Lue lisää</a>
             </div>
         </div>
     </section>
