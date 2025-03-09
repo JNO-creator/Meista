@@ -127,12 +127,12 @@
             border: 1px solid #ddd;
             border-radius: 8px;
             text-align: center;
-            padding: 10px;
+            padding: 20px; /* Increased padding */
             transition: transform 0.3s ease;
         }
 
         .box h3 {
-            margin: 20px 0 10px;
+            margin-bottom: 15px; /* Space between title and paragraph */
             font-size: 24px;
             color: #0e194d;
         }
@@ -171,12 +171,14 @@
         }
 
         .box-image h3 {
+            margin-bottom: 20px; /* Space between title and paragraph */
             font-size: 24px;
             color: white;
         }
 
         .box-image p {
             font-size: 14px;
+            color: white;
         }
 
         footer {
