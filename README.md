@@ -113,12 +113,7 @@
     </style>
 </head>
 <body>
-    <!-- Header with rolling text effect -->
-    <div class="header">
-        <h1>Your Rolling Title</h1>
-    </div>
-
-    <!-- Top Navigation Bar -->
+    <!-- Top Navigation Bar placed before the header -->
     <div class="navbar" id="myNavbar">
         <a href="#home" class="active">Koti</a>
         <a href="#Meista">Meistä</a>
@@ -127,6 +122,11 @@
         <a href="#contact">Koulutus</a>
         <!-- Hamburger Icon -->
         <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">&#9776;</a>
+    </div>
+
+    <!-- Header with rolling text effect -->
+    <div class="header">
+        <h1>Your Rolling Title</h1>
     </div>
 
     <script>
