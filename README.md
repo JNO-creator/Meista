@@ -80,31 +80,57 @@
             }
         }
 
-        /* Styling for the header */
+        /* Styling for the header with sparkle effect */
         .header {
             background-color: #0e194d;
             color: white;
             padding: 20px;
             text-align: center;
             position: relative;
+            overflow: hidden;
         }
 
-        /* Style for the GIF */
-        .header img {
+        /* Sparkle Effect */
+        .header::before, .header::after {
+            content: '';
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            max-width: 100%; /* Ensures the GIF doesn't exceed the header width */
-            max-height: 100px; /* Optional: controls the height of the GIF */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://media.giphy.com/media/1g0mXL8l7hOQk9Znyh/giphy.gif') repeat;
+            opacity: 0.1;
+            animation: sparkle 1s linear infinite;
+            z-index: 1;
+        }
+
+        /* Keyframes for sparkle animation */
+        @keyframes sparkle {
+            0% {
+                transform: scale(1);
+                opacity: 0.1;
+            }
+            50% {
+                transform: scale(1.1);
+                opacity: 0.4;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 0.1;
+            }
+        }
+
+        /* Header Text */
+        .header h1 {
+            position: relative;
+            z-index: 2;
         }
     </style>
 </head>
 <body>
-    <!-- Header with GIF and text -->
+    <!-- Header with sparkle effect -->
     <div class="header">
-        <img src="https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif" alt="Animated GIF">
-        <h1>Your Header Title</h1>
+        <h1>Your Sparkling Header</h1>
     </div>
 
     <!-- Top Navigation Bar -->
