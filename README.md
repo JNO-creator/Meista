@@ -159,7 +159,7 @@
 
         /* Box with Background Image */
         .box-image {
-            background-image: url('https://nos.twnsnd.co/image/697559999966314497'); /* Add your image URL here */
+            background-image: url('<a href="https://gratisography.com/photo/virtual-reality/">Photo</a>'); /* Add your image URL here */
             background-size: cover;
             background-position: center;
             color: white;
