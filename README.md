@@ -80,7 +80,7 @@
             }
         }
 
-        /* Styling for the header with sparkle effect */
+        /* Styling for the header with shimmering effect */
         .header {
             background-color: #0e194d;
             color: white;
@@ -90,7 +90,7 @@
             overflow: hidden;
         }
 
-        /* Sparkle Effect */
+        /* Shimmer Effect */
         .header::before, .header::after {
             content: '';
             position: absolute;
@@ -98,24 +98,24 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('https://media.giphy.com/media/1g0mXL8l7hOQk9Znyh/giphy.gif') repeat;
-            opacity: 0.1;
-            animation: sparkle 1s linear infinite;
+            background: url('https://media.giphy.com/media/3o6gE5aYkIHJZbqM5C/giphy.gif') repeat;
+            opacity: 0.2;
+            animation: shimmer 1.5s linear infinite;
             z-index: 1;
         }
 
-        /* Keyframes for sparkle animation */
-        @keyframes sparkle {
+        /* Keyframes for shimmer animation */
+        @keyframes shimmer {
             0% {
-                transform: scale(1);
+                transform: scale(1) translateX(-100%);
                 opacity: 0.1;
             }
             50% {
-                transform: scale(1.1);
-                opacity: 0.4;
+                transform: scale(1.1) translateX(0);
+                opacity: 0.6;
             }
             100% {
-                transform: scale(1);
+                transform: scale(1) translateX(100%);
                 opacity: 0.1;
             }
         }
@@ -124,13 +124,14 @@
         .header h1 {
             position: relative;
             z-index: 2;
+            font-size: 36px;
         }
     </style>
 </head>
 <body>
-    <!-- Header with sparkle effect -->
+    <!-- Header with shimmering effect -->
     <div class="header">
-        <h1>Your Sparkling Header</h1>
+        <h1>Your Shimmering Header</h1>
     </div>
 
     <!-- Top Navigation Bar -->
