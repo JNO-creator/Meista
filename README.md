@@ -279,7 +279,7 @@
  
              <!-- Referenssit Box (With Background Image) -->
              <div class="box-image">
-                 <h3>Tutustu jo olemassa oleviin asiakkaisiin ja heidän tarinoihinsa.</h3>
+                 <h3>Tutustu jo olemassa oleviin asiakkaisiin.</h3>
               <a href="/Meista" class="cta-btn">Lue lisää</a>
              </div>
  
