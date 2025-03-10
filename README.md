@@ -184,7 +184,7 @@
            background-image: url('Main.jpg'); /* Corrected with url() */
             background-size: cover;
             background-position: center;
-            color: white;
+            color: black;
             padding: 40px;
             text-align: center;
             width: 100%; /* Set a fixed height */
