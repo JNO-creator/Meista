@@ -112,6 +112,23 @@
             }
         }
 
+        /* New Text Section */
+        .intro-text {
+            text-align: center;
+            padding: 40px;
+            background-color: #f0f0f0; /* Light background for the text section */
+        }
+
+        .intro-text h2 {
+            font-size: 28px;
+            color: #0e194d;
+        }
+
+        .intro-text p {
+            font-size: 18px;
+            color: #333;
+        }
+
         /* Box Container */
         .box-container {
             display: grid;
@@ -232,6 +249,12 @@
     <!-- Header with rolling text effect -->
     <div class="header">
         <h1>Self-Help-You</h1>
+    </div>
+
+    <!-- New Text Section -->
+    <div class="intro-text">
+        <h2>Welcome to Self-Help-You!</h2>
+        <p>We are dedicated to helping you and your business thrive. Explore our services and learn more about how we can assist you in achieving your goals. Together, let's build a brighter future!</p>
     </div>
 
     <!-- Main Content -->
