@@ -255,6 +255,7 @@
         <div class="box-container">
             <!-- Tarina Box (Smaller) -->
             <div class="box-small">
+             <div class="box-image">
                 <h3>Kuinka tarinamme alkoi?</h3>
                 <a href="/Meista" class="cta-btn">Lue lisää</a>
             </div>
