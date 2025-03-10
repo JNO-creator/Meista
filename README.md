@@ -196,12 +196,12 @@
          .box-image h3 {
              margin-bottom: 20px; /* Space between title and paragraph */
              font-size: 24px;
-             color: #0e194d;
+             color: #e1705d;
          }
  
          .box-image p {
              font-size: 14px;
-             color: #0e194d;
+             color: #e1705d;
          }
  
          footer {
