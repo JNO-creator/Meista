@@ -133,14 +133,9 @@
         /* Box Container */
         .box-container {
             display: grid;
-            grid-template-columns: 1fr 1fr; /* Two columns for smaller boxes (Tarina and Palvelut) */
+            grid-template-columns: 1fr; /* Single column layout for all boxes */
             gap: 10px;
             margin-top: 40px;
-        }
-
-        /* Make the last two boxes appear next to each other */
-        .box-container .box-image {
-            grid-column: span 1; /* These two boxes will occupy one grid column each */
         }
 
         /* Box Styles */
