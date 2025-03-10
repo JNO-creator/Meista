@@ -257,8 +257,8 @@
 
     <!-- New Text Section -->
     <div class="intro-text">
-        <h2>Welcome to Self-Help-You!</h2>
-        <p>We are dedicated to helping you and your business thrive. Explore our services and learn more about how we can assist you in achieving your goals. Together, let's build a brighter future!</p>
+        <h2>Anna meidän auttaa Sinua ja liiketoimintaasi!</h2>
+        <p>Haluamme poistaa digitaalisen eriarvoisuuden yhteiskuntamme rakenteista.</p>
     </div>
 
     <!-- Main Content -->
