@@ -132,9 +132,14 @@
         /* Box Container */
         .box-container {
             display: grid;
-            grid-template-columns: 1fr; /* Make all boxes in a single column */
+            grid-template-columns: 1fr 1fr; /* Two columns for smaller boxes (Meistä and Yritys) */
             gap: 10px;
             margin-top: 40px;
+        }
+
+        /* Make sure the boxes with background images (Palvelut and Koulutus) still stack vertically */
+        .box-container .box-image {
+            grid-column: span 2; /* These two boxes will span across both columns */
         }
 
         /* Box Styles */
