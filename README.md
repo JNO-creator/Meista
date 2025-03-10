@@ -112,27 +112,10 @@
             }
         }
 
-        /* New Text Section */
-        .intro-text {
-            text-align: center;
-            padding: 40px;
-            background-color: #f0f0f0; /* Light background for the text section */
-        }
-
-        .intro-text h2 {
-            font-size: 24px;
-            color: #e1705d;
-        }
-
-        .intro-text p {
-            font-size: 14px;
-            color: #333;
-        }
-
         /* Box Container */
         .box-container {
             display: grid;
-            grid-template-columns: repeat(2, 1fr); /* Two equal width columns */
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 10px;
             margin-top: 40px;
         }
@@ -144,58 +127,23 @@
             border: 1px solid #ddd;
             border-radius: 8px;
             text-align: center;
-            padding: 20px; /* Increased padding */
+            padding: 20px;
             transition: transform 0.3s ease;
         }
 
         .box h3 {
-            margin-bottom: 15px; /* Space between title and paragraph */
-            font-size: 24px;
+            margin: 20px 0 10px;
+            font-size: 1.2rem;
             color: #0e194d;
         }
 
         .box p {
-            font-size: 14px;
+            font-size: 1rem;
             color: #0e194d;
         }
 
         .box:hover {
             transform: translateY(-10px);
-        }
-
-        /* Smaller Boxes with Reduced Width */
-        .box-small {
-            background-color: #f7a539; /* Light background for smaller boxes */
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
-            padding: 20px;
-            height: 150px; /* Set a fixed height */
-            border-radius: 8px;
-            text-align: center;
-            transition: transform 0.3s ease;
-        }
-
-        /* Box with Background Image */
-        .box-image {
-            background-image: url('https://nos.twnsnd.co/image/697559999966314497'); /* Add your image URL here */
-            background-size: cover;
-            background-position: center;
-            color: white;
-            padding: 40px;
-            text-align: center;
-            width: 100%; /* Set a fixed height */
-            border-radius: 8px;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
-        }
-
-        .box-image h3 {
-            margin-bottom: 20px; /* Space between title and paragraph */
-            font-size: 24px;
-            color: white;
-        }
-
-        .box-image p {
-            font-size: 14px;
-            color: white;
         }
 
         footer {
@@ -238,8 +186,8 @@
     <!-- Top Navigation Bar placed before the header -->
     <div class="navbar" id="myNavbar">
         <a href="/Kotisivu">Koti</a>
-        <a href="#Meista" class="active">Meistä</a>
-        <a href="/Yritys">Yritys</a>
+        <a href="/Meista">Meistä</a>
+         <a href="#yritys" class="active">Yritys</a>
         <a href="/Palvelut">Palvelut</a>
         <a href="/Koulutus">Koulutus</a>
         <!-- Hamburger Icon -->
@@ -251,40 +199,70 @@
         <h1>Self-Help-You</h1>
     </div>
 
-    <!-- New Text Section -->
-    <div class="intro-text">
-        <h2>Self-Help-You on täällä Sinua ja liiketoimintaasi varten!</h2>
-        <p>Tutustu henkilökuntaamme sekä arvoihimme yrityksenä.</p>
-    </div>
-
     <!-- Main Content -->
     <section>
         <div class="box-container">
-            <!-- Meistä Box (Smaller) -->
-            <div class="box-small">
+            <!-- Meistä Box -->
+            <div class="box">
                 <h3>Meistä</h3>
                 <p>Lue lisää meistä ja referensseistämme.</p>
                 <a href="/Meista" class="cta-btn">Lue lisää</a>
             </div>
 
-            <!-- Yritys Box (Smaller) -->
-            <div class="box-small">
+            <!-- Yritys Box -->
+            <div class="box">
                 <h3>Yritys</h3>
                 <p>Tutustu yritykseemme sekä henkilökuntaamme.</p>
                 <a href="/Meista" class="cta-btn">Tutustu</a>
             </div>
 
-            <!-- Palvelut Box (With Background Image) -->
-            <div class="box-image">
+            <!-- Palvelut Box -->
+            <div class="box">
                 <h3>Palvelut</h3>
                 <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi tulevaisuuden suunnittelussa.</p>
+                <a href="/Meista" class="cta-btn">Katso tästä</a>
             </div>
 
-            <!-- Koulutus Box (With Background Image) -->
-            <div class="box-image">
+            <!-- Koulutus Box -->
+            <div class="box">
                 <h3>Koulutus</h3>
                 <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
+                <a href="/Meista" class="cta-btn">Lue lisää</a>
             </div>
+        <html>
+<head>
+<style>
+body {margin:25px;}
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+</style>
+</head>
+<body>
+
+<h2>Responsive Polaroid Images / Cards</h2>
+
+<div class="polaroid">
+  <img src="img_5terre.jpg" alt="5 Terre" style="width:100%">
+  <div class="container">
+  <p>Cinque Terre</p>
+  </div>
+</div>
+
+<div class="polaroid">
+  <img src="lights600x400.jpg" alt="Norther Lights" style="width:100%">
+  <div class="container">
+  <p>Northern Lights</p>
+  </div>
         </div>
     </section>
 
