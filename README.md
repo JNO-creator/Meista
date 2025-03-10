@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -137,9 +138,14 @@
             margin-top: 40px;
         }
 
+        /* Make the last two boxes appear next to each other */
+        .box-container .box-image {
+            grid-column: span 1; /* These two boxes will occupy one grid column each */
+        }
+
         /* Box Styles */
         .box {
-             background-image: url('main.jpg'); /* Corrected with url() */
+            background-color: #0e194d;
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
             border: 1px solid #ddd;
             border-radius: 8px;
