@@ -66,7 +66,7 @@
              }
  
              /* Display the hamburger icon */
-             .navbar .icon {
+             .navbar.icon {
                  display: block;
              }
  
