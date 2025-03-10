@@ -156,7 +156,7 @@
          .box h3 {
              margin-bottom: 15px; /* Space between title and paragraph */
              font-size: 24px;
-    text-shadow: 2px 2px 5px white; /* Horizontal shadow, vertical shadow, blur radius, color */
+    text-shadow: 2px 2px 5px grey; /* Horizontal shadow, vertical shadow, blur radius, color */
              color: #0e194d;
          }
  
