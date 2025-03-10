@@ -132,7 +132,7 @@
         /* Box Container */
         .box-container {
             display: grid;
-            grid-template-columns: 1fr 1fr; /* Two columns for smaller boxes (Meistä and Yritys) */
+            grid-template-columns: 1fr 1fr; /* Two columns for smaller boxes (Tarina and Palvelut) */
             gap: 10px;
             margin-top: 40px;
         }
@@ -264,17 +264,17 @@
     <!-- Main Content -->
     <section>
         <div class="box-container">
-            <!-- Meistä Box (Smaller) -->
+            <!-- Tarina Box (Smaller) -->
             <div class="box-small">
-                <h3>Meistä</h3>
-                <p>Lue lisää meistä ja referensseistämme.</p>
+                <h3>Tarina</h3>
+                <p>Mistä kaikki alkoi ja miten päädyimme yritykseksi.</p>
                 <a href="/Meista" class="cta-btn">Lue lisää</a>
             </div>
 
-            <!-- Yritys Box (Smaller) -->
+            <!-- Palvelut Box (Smaller) -->
             <div class="box-small">
-                <h3>Yritys</h3>
-                <p>Tutustu yritykseemme sekä henkilökuntaamme.</p>
+                <h3>Palvelut</h3>
+                <p>Tutustu yrityksemme palveluihin ja kuinka voimme auttaa Sinua ja liiketoimintaasi.</p>
                 <a href="/Meista" class="cta-btn">Tutustu</a>
             </div>
 
