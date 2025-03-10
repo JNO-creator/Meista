@@ -181,7 +181,7 @@
 
         /* Box with Background Image */
         .box-image {
-            background-image: Main.jpg; /* Add your image URL here */
+           background-image: url('Main.jpg'); /* Corrected with url() */
             background-size: cover;
             background-position: center;
             color: white;
