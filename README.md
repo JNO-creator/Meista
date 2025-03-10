@@ -254,7 +254,7 @@
     <!-- New Text Section -->
     <div class="intro-text">
         <h2>Self-Help-You on täällä Sinua ja liiketoimintaasi varten!</h2>
-        <p>Tällä sivustolla pystyt tutustumaan henkilökuntaamme sekä arvoihimme yrityksenä.</p>
+        <p>Tutustu henkilökuntaamme sekä arvoihimme yrityksenä.</p>
     </div>
 
     <!-- Main Content -->
