@@ -24,7 +24,7 @@
             padding: 14px 20px; /* Padding inside each link */
             text-decoration: none; /* Removes underline from links */
             color: white; /* White text color */
-            font-size: 16px; /* Font size for the links */
+            font-size: 14px; /* Font size for the links */
             transition: background-color 0.3s ease; /* Smooth transition for background color change */
         }
 
@@ -44,7 +44,7 @@
         .navbar .icon {
             z-index: 2;
             display: none;
-            font-size: 30px;
+            font-size: 27px;
             color: white;
             padding: 14px 20px;
             background-color: #0e194d;
@@ -120,12 +120,12 @@
         }
 
         .intro-text h2 {
-            font-size: 28px;
+            font-size: 24px;
             color: #0e194d;
         }
 
         .intro-text p {
-            font-size: 18px;
+            font-size: 14px;
             color: #333;
         }
 
@@ -170,7 +170,7 @@
 
         /* Smaller Boxes with Reduced Width */
         .box-small {
-            background-color: #f7a539; /* Light background for smaller boxes */
+            background-image: url('mustikkasato-kuviasuomesta.fi-roine-piirainen.jpg'); /* Corrected with url() */
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
             padding: 20px;
             height: 150px; /* Set a fixed height */
