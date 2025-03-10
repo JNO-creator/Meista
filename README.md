@@ -157,7 +157,6 @@
              margin-bottom: 15px; /* Space between title and paragraph */
              font-size: 24px;
     text-shadow: 2px 2px 5px white; /* Horizontal shadow, vertical shadow, blur radius, color */
-             text-shadow: 2px 2px 4px #000000, -2px -2px 4px #FF5733;
              color: #0e194d;
          }
  
