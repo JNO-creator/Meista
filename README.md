@@ -187,6 +187,7 @@
             color: black;
             padding: 40px;
             text-align: center;
+            text-color: white;
             width: 100%; /* Set a fixed height */
             border-radius: 8px;
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
@@ -266,15 +267,13 @@
         <div class="box-container">
             <!-- Tarina Box (Smaller) -->
             <div class="box-small">
-                <h3>Tarina</h3>
-                <p>Mistä kaikki alkoi ja miten päädyimme yritykseksi.</p>
+                <h3>Kuinka tarinamme alkoi?</h3>
                 <a href="/Meista" class="cta-btn">Lue lisää</a>
             </div>
 
             <!-- Palvelut Box (Smaller) -->
             <div class="box-small">
-                <h3>Palvelut</h3>
-                <p>Kuinka voimme auttaa Sinua ja liiketoimintaasi.</p>
+                <h3>Palvelut räätälöitynä Sinun liiketoiminnallesi</h3>
                 <a href="/Meista" class="cta-btn">Tutustu</a>
             </div>
 
