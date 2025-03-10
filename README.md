@@ -126,7 +126,7 @@
 
         .intro-text p {
             font-size: 14px;
-            color: #333;
+            color: #0e194d;
         }
 
         /* Box Container */
@@ -184,10 +184,9 @@
            background-image: url('Main.jpg'); /* Corrected with url() */
             background-size: cover;
             background-position: center;
-            color: black;
+            color: #0e194d;
             padding: 40px;
             text-align: center;
-            text-color: white;
             width: 100%; /* Set a fixed height */
             border-radius: 8px;
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
@@ -196,12 +195,12 @@
         .box-image h3 {
             margin-bottom: 20px; /* Space between title and paragraph */
             font-size: 24px;
-            color: white;
+            color: #e1705d;
         }
 
         .box-image p {
             font-size: 14px;
-            color: white;
+            color: #e1705d;
         }
 
         footer {
