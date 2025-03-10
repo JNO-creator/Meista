@@ -139,7 +139,7 @@
 
         /* Box Styles */
         .box {
-            background-color: #0e194d;
+             background-image: url('main.jpg'); /* Corrected with url() */
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
             border: 1px solid #ddd;
             border-radius: 8px;
