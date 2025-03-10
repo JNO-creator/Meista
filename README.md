@@ -132,7 +132,7 @@
         /* Box Container */
         .box-container {
             display: grid;
-            grid-template-columns: repeat(2, 1fr); /* Two equal width columns */
+            grid-template-columns: 1fr; /* Make all boxes in a single column */
             gap: 10px;
             margin-top: 40px;
         }
@@ -230,7 +230,6 @@
         section {
             padding-bottom: 40px; /* Space between content and footer */
         }
-
     </style>
 </head>
 <body>
