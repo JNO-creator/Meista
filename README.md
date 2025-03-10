@@ -282,12 +282,14 @@
              <div class="box-image">
                  <h3>Palvelut</h3>
                  <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi tulevaisuuden suunnittelussa.</p>
+              <a href="/Meista" class="cta-btn">Lue lisää</a>
              </div>
  
              <!-- Koulutus Box (With Background Image) -->
              <div class="box-image">
                  <h3>Koulutus</h3>
                  <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
+             <a href="/Meista" class="cta-btn">Lue lisää</a>
              </div>
          </div>
      </section>
