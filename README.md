@@ -185,7 +185,7 @@
             background-image: url('pexels-dsd-143941-1822608.jpg'); /* Corrected with url() */
              background-size: cover;
              background-position: center;
-             color: #0e194d;
+             color: #e1705d;
              padding: 40px;
              text-align: center;
              width: 100%; /* Set a fixed height */
@@ -196,12 +196,12 @@
          .box-image h3 {
              margin-bottom: 20px; /* Space between title and paragraph */
              font-size: 24px;
-             color: #0e194d;
+             color: #e1705d;
          }
  
          .box-image p {
              font-size: 14px;
-             color: #0e194d;
+             color: #e1705d;
          }
  
          footer {
