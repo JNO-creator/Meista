@@ -285,7 +285,7 @@
  
              <!-- Ota yhteyttä Box (With Background Image) -->
              <div class="box-image">
-                 <h3>Ota rohkeasti yhteyttä ja kysy lisää tietoja</h3>
+                 <h3>Ota rohkeasti yhteyttä ja kysy lisätietoja</h3>
              <a href="/Meista" class="cta-btn">Lähesty</a>
              </div>
          </div>
