@@ -120,8 +120,8 @@
         }
 
         .intro-text h2 {
-            font-size: 28px;
-            color: #0e194d;
+            font-size: 24px;
+            color: #e1705d;
         }
 
         .intro-text p {
