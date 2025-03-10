@@ -253,8 +253,8 @@
 
     <!-- New Text Section -->
     <div class="intro-text">
-        <h2>Welcome to Self-Help-You!</h2>
-        <p>We are dedicated to helping you and your business thrive. Explore our services and learn more about how we can assist you in achieving your goals. Together, let's build a brighter future!</p>
+        <h2>Self-Help-You on täällä Sinua ja liiketoimintaasi varten!</h2>
+        <p>Tällä sivustolla pystyt tutustumaan henkilökuntaamme sekä arvoihimme yrityksenä.</p>
     </div>
 
     <!-- Main Content -->
