@@ -185,7 +185,7 @@
             background-image: url('Mittaus.jpg'); /* Corrected with url() */
              background-size: cover;
              background-position: center;
-             color: #e1705d;
+             color: #0e194d;
              padding: 40px;
              text-align: center;
              width: 100%; /* Set a fixed height */
