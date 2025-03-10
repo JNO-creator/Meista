@@ -274,7 +274,7 @@
             <!-- Palvelut Box (Smaller) -->
             <div class="box-small">
                 <h3>Palvelut</h3>
-                <p>Tutustu yrityksemme palveluihin ja kuinka voimme auttaa Sinua ja liiketoimintaasi.</p>
+                <p>Kuinka voimme auttaa Sinua ja liiketoimintaasi.</p>
                 <a href="/Meista" class="cta-btn">Tutustu</a>
             </div>
 
