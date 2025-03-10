@@ -273,7 +273,7 @@
  
              <!-- Palvelut Box (Smaller) -->
              <div class="box-small">
-                 <h3>Palvelut räätälöitynä Sinun liiketoiminnallesi</h3>
+                 <h3>Palvelut Sinun liiketoiminnallesi</h3>
                  <a href="/Meista" class="cta-btn">Tutustu</a>
              </div>
  
