@@ -182,7 +182,7 @@
  
          /* Box with Background Image */
          .box-image {
-            background-image: url('pexels-dsd-143941-1822608.jpg'); /* Corrected with url() */
+            background-image: url('puhuja.jpg'); /* Corrected with url() */
              background-size: cover;
              background-position: center;
              color: #e1705d;
@@ -277,18 +277,16 @@
                  <a href="/Meista" class="cta-btn">Tutustu</a>
              </div>
  
-             <!-- Palvelut Box (With Background Image) -->
+             <!-- Referenssit Box (With Background Image) -->
              <div class="box-image">
-                 <h3>Palvelut</h3>
-                 <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi tulevaisuuden suunnittelussa.</p>
+                 <h3>Tutustu jo olemassa oleviin asiakkaisiin ja heidän tarinoihinsa.</h3>
               <a href="/Meista" class="cta-btn">Lue lisää</a>
              </div>
  
-             <!-- Koulutus Box (With Background Image) -->
+             <!-- Ota yhteyttä Box (With Background Image) -->
              <div class="box-image">
-                 <h3>Koulutus</h3>
-                 <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
-             <a href="/Meista" class="cta-btn">Lue lisää</a>
+                 <h3>Ota rohkeasti yhteyttä ja kysy lisää tietoja</h3>
+             <a href="/Meista" class="cta-btn">Lähesty</a>
              </div>
          </div>
      </section>
