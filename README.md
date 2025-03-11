@@ -183,7 +183,7 @@
  
           /* Box with Background Image */
           .box-image {
-             background-image: url('mitta.jpg'); /* Corrected with url() */
+             background-image: url('Kuva16.jpg'); /* Corrected with url() */
               background-size: cover;
               background-position: center;
               color: #0e194d;
