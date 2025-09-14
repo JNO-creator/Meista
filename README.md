@@ -289,6 +289,11 @@
                   <h3>Ota rohkeasti yhteyttä ja kysy lisätietoja</h3>
               <a href="/Meista" class="cta-btn">Lähesty</a>
               </div>
+               <!-- Referenssit Box (With Video) -->
+              <div class="box-image">
+                  <h3>Tutustu jo olemassa oleviin asiakkaisiin.</h3>
+               <a href="/Meista" class="cta-btn">Lue lisää</a>
+              </div>
           </div>
       </section>
  
