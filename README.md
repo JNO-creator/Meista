@@ -289,10 +289,26 @@
                   <h3>Ota rohkeasti yhteyttä ja kysy lisätietoja</h3>
               <a href="/Meista" class="cta-btn">Lähesty</a>
               </div>
-               <!-- Referenssit Box (With Video) -->
-              <div class="box-image">
-                  <h3>Tutustu jo olemassa oleviin asiakkaisiin.</h3>
-               <a href="/Meista" class="cta-btn">Lue lisää</a>
-              </div>
           </div>
       </section>
+
+      <!-- Footer -->
+      <footer>
+          <div class="footer-section contact">
+              <h4>Self-Help-You</h4>
+              <a href="/Otayhteytta" class="cta-btn">Ota yhteyttä</a>
+              <a href="/Sahkoposti" class="cta-btn">Sähköposti</a>
+              <a href="/Kanavat" class="cta-btn">Kanavat</a>
+          </div>
+          <div class="footer-bottom">
+              <p>&copy; 2025 Self-Help-You. Kaikki oikeudet pidätetään.</p>
+          </div>
+      </footer>
+
+      <script>
+          /* Function to toggle the navbar on small screens */
+          function toggleNavbar() {
+              var navbar = document.getElementById("myNavbar");
+              navbar.classList.toggle("responsive");
+          }
+      </script>
