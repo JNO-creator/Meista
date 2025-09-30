@@ -291,6 +291,7 @@
               </div>
           </div>
       </section>
+       
       <!-- Footer -->
 <footer>
   <div class="footer-section contact">
